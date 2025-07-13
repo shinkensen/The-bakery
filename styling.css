@@ -1,0 +1,218 @@
+h1{
+        margin: 0;
+    }
+    .header{
+        flex: 1;
+        text-align: center;
+        background-color: black;
+        padding-top: 15px;
+    }
+    body{
+        background-color: rgb(50, 50, 50);
+        margin:0;
+        margin-top: 0;
+    }
+    p { text-indent: 30px;
+    }
+    .rows{
+        display:flex;
+        
+    }
+    .about img{
+        width: 50%;
+        border: 5px dotted white;
+        border-radius: 50%;
+        width: 85%;
+        margin-top: 40px;
+        margin-left: 10px;
+        padding: 10px;
+        transition: 0.2s ease-in-out;
+        box-sizing: border-box;
+    }
+    .about img:hover{
+        padding:17px;
+    }
+    .about p{
+        width:100%;
+    }
+    .rows :hover{
+        background-color: gray;
+    }
+    .para{
+        width:90%;
+        border: 1px solid white;
+        margin-top: 50px;
+        transition: 0.2s ease-in-out;
+        box-sizing: border-box;
+    }
+    .para:hover{
+        padding: 15px;
+    }
+    .hvr{
+        color:chocolate;
+    }
+    .hvr:hover{
+        color: white;
+    }
+    .img_rows{
+        width:20%;
+    }
+    .img_rows img{
+        width:100%;
+        height:100%;
+    }
+    .text{
+        transition: 0.3s ease-in-out;
+    }
+    .text:hover{
+        transform: scale(1.05);
+    }
+    .img2{
+        box-sizing: border-box;
+        padding:0;
+        transition: 0.3s ease-in-out;
+    }
+    .img2:hover{
+        transform: scale(1.05);
+    }
+    .img{
+        box-sizing: border-box;
+        padding:0;
+        transition: 0.3s ease-in-out;
+    }
+    .img:hover{
+        height:40%;
+        width: 40%;
+    }
+    .icons{
+        background-color: black;
+        border-bottom: 1px dotted white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icons h2:hover{
+        color:gray;
+        text-decoration: dashed;
+    }
+    .home{
+        width:30px;height:30px;border-radius:100px;border:5px solid white; background-color: white;margin-top: 10px; margin-left: 10px;
+    }
+    .home:hover{
+        background-color: gray;
+        border-color: gray;
+        transition: 0.3s ease-in-out
+    }
+    .text_rows{
+        width: 100%;
+        min-width: 10px;
+        min-height: 200px;
+        padding-left: 10px;
+        text-align: center;
+        border-top: 1px solid white;
+        border-bottom:1px solid white;
+        transition: 0.3s ease-in-out;
+    }
+    .text_rows:hover{
+        transform: scale(1.05);
+    }
+    .flex-child{
+        /*width: 50%;*/
+        padding: 1px;
+        /*min-width: 50%;*/
+        box-sizing: border-box;
+    }
+
+    .skibidi-font {
+    font-family: "Bitcount Grid Double", system-ui;
+     font-optical-sizing: auto;
+     font-weight: 500;
+     font-style: normal;
+     font-variation-settings:
+     "slnt" 0,
+     "CRSV" 0.5,
+     "ELSH" 0,
+     "ELXP" 0;
+    }
+    @keyframes lmao{
+        0% {
+            transform: translateX(0);
+        }
+        10% {
+            transform: translateX(-5px);
+        }
+        20% {
+            transform: translateX(5px);
+        }30% {
+            transform: translateX(10px);
+        }40% {
+            transform: translateX(-10px);
+        }50% {
+            transform: translateX(-10px);
+        }60% {
+            transform: translateX(10px);
+        }70% {
+            transform: translateX(5px);
+        }
+        80% {
+            transform: translateX(-5px);
+        }
+        90% {
+            transform: translateX(-5px);
+        }
+        100% {
+            transform: translateX(5px);
+        }
+    }
+    .skibidi-font:hover{
+    animation: lmao 1s ease-in-out;
+    font-weight: 900;
+    }
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container>div{
+    width:100%;
+  }
+  .img:hover{
+        height:101%;
+        width: 101%;
+    }
+    
+  .flex-child {
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .about img{
+    width:90%;
+  }
+  .about p{
+    width:100%
+  }
+}
+@media (min-width: 1000px) {
+    .text{
+        width: 75%;
+    }
+    .img{
+        width:25%;
+    }
+    .img img{
+        width:100%;
+        height:auto;
+        display: block;
+    }
+    .img2{
+        width:25%;
+    }
+    .img2 img{
+        width:100%;
+        height:auto;
+        display: block;
+    }
+
+}
